@@ -1,0 +1,152 @@
+model_settings:
+  qwen: False
+tts_change: False
+tts_settings:
+  voices:
+    # 青涩青年音色：活泼惊讶，适度高音
+    male-qn-qingse:
+      emotion: "surprised"
+    # 精英青年音色：冷酷低沉，冷静专业
+    male-qn-jingying:
+      emotion: "calm"
+    # 霸道青年音色：强势愤怒，适度低音
+    male-qn-badao:
+      emotion: "angry"
+    # 青年大学生音色：青春快乐，适度高音
+    male-qn-daxuesheng:
+      emotion: "happy"
+    # 少女音色：甜美活力，适度高音
+    female-shaonv:
+      emotion: "happy"
+    # 御姐音色：冷艳厌恶，适度低音
+    female-yujie:
+      emotion: "disgusted"
+    # 成熟女性音色：深情悲伤，适度低音
+    female-chengshu:
+      emotion: "sad"
+    # 甜美女性音色：俏皮甜美，适度高音
+    female-tianmei:
+      emotion: "happy"
+    # 男性主持人：专业沉稳，适度低音
+    presenter_male:
+      emotion: "calm"
+    # 女性主持人：热情清晰，适度高音
+    presenter_female:
+      emotion: "happy"
+    # 男性有声书1：沉稳低沉，冷静叙事
+    audiobook_male_1:
+      emotion: "calm"
+    # 男性有声书2：神秘阴郁，适度低音
+    audiobook_male_2:
+      emotion: "sad"
+    # 女性有声书1：柔和悲伤，适度高音
+    audiobook_female_1:
+      emotion: "sad"
+    # 女性有声书2：温暖热情，适度高音
+    audiobook_female_2:
+      emotion: "happy"
+    # 青涩青年音色-beta：更活泼，惊讶高音
+    male-qn-qingse-jingpin:
+      emotion: "surprised"
+    # 精英青年音色-beta：更冷酷，低沉冷静
+    male-qn-jingying-jingpin:
+      emotion: "calm"
+    # 霸道青年音色-beta：更霸气，愤怒低音
+    male-qn-badao-jingpin:
+      emotion: "angry"
+    # 青年大学生音色-beta：更青春，快乐高音
+    male-qn-daxuesheng-jingpin:
+      emotion: "happy"
+    # 少女音色-beta：更甜美，活力高音
+    female-shaonv-jingpin:
+      emotion: "happy"
+    # 御姐精读音色-beta：更冷艳，厌恶低音
+    female-yujie-jingpin:
+      emotion: "disgusted"
+    # 成熟女性音色-beta：更深沉，悲伤低音
+    female-chengshu-jingpin:
+      emotion: "sad"
+    # 甜美女性音色-beta：更俏皮，甜美高音
+    female-tianmei-jingpin:
+      emotion: "happy"
+    # 聪明男童：机灵活力，适度高音
+    clever_boy:
+      emotion: "happy"
+    # 可爱男童：天真可爱，适度高音
+    cute_boy:
+      emotion: "happy"
+    # 萌萌女童：甜美可爱，适度高音调
+    lovely_girl:
+      emotion: "happy"
+    # 卡通猪小琪：夸张搞笑，适度高音
+    cartoon_pig:
+      emotion: "surprised"
+    # 病娇弟弟：阴郁诡异，适度低音
+    bingjiao_didi:
+      emotion: "disgusted"
+    # 俊朗男友：温柔磁性，适度低音
+    junlang_nanyou:
+      emotion: "happy"
+    # 纯真学弟：天真活泼，适度高音
+    chunzhen_xuedi:
+      emotion: "happy"
+    # 冷淡学长：冷漠疏离，适度低音调
+    lengdan_xiongzhang:
+      emotion: "calm"
+    # 霸道少爷：傲慢震慑，适度低音
+    badao_shaoye:
+      emotion: "angry"
+    # 甜心小玲：甜美温柔，适度高音
+    tianxin_xiaoling:
+      emotion: "happy"
+    # 俏皮萌妹：活泼俏皮，适度高音
+    qiaopi_mengmei:
+      emotion: "happy"
+    # 妩媚御姐：性感厌恶，适度低音
+    wumei_yujie:
+      emotion: "disgusted"
+    # 嗲嗲学妹：娇嗔甜美，适度高音
+    diadia_xuemei:
+      emotion: "happy"
+    # 淡雅学姐：优雅柔和，适度低音
+    danya_xuejie:
+      emotion: "calm"
+    # Santa Claus：温暖节日，适度低音
+    Santa_Claus:
+      emotion: "happy"
+    # Grinch：怪诞讽刺，适度低音
+    Grinch:
+      emotion: "disgusted"
+    # Rudolph：活泼可爱，适度高音
+    Rudolph:
+      emotion: "happy"
+    # Arnold：硬朗霸气，适度低音
+    Arnold:
+      emotion: "angry"
+    # Charming Santa：迷人温暖，适度低音
+    Charming_Santa:
+      emotion: "happy"
+    # Charming Lady：优雅迷人，适度低音
+    Charming_Lady:
+      emotion: "calm"
+    # Sweet Girl：甜美轻快，适度高音
+    Sweet_Girl:
+      emotion: "happy"
+    # Cute Elf：俏皮活力，适度高音
+    Cute_Elf:
+      emotion: "happy"
+    # Attractive Girl：迷人俏皮，适度高音
+    Attractive_Girl:
+      emotion: "happy"
+    # Serene Woman：平静柔和，适度低音
+    Serene_Woman:
+      emotion: "calm"
+  audio_setting:
+    sample_rate: 32000
+    bitrate: 128000
+    format: "mp3"
+    channel: 1
+  pronunciation_dict:
+    tone:
+      - "处理/(chu3)(li3)"
+      - "危险/dangerous"

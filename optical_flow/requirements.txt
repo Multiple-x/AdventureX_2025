@@ -1,0 +1,9 @@
+pyyaml
+openai
+requests
+dotenv
+opencv-python
+opencv-contrib-python
+modelscope
+pillow
+openai-whisper
